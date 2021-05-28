@@ -1,7 +1,26 @@
-.App{
- 
+.search{
+  width: 100%;
+ background-image: url(https://static-mh.content.disney.io/matterhorn/assets/goc/disney_logo_dark@2x-45d70f7dd57b.png);
+background-repeat: no-repeat;
+display: flex;
+justify-content: space-around;
+align-items: center;
+height: 80px;
 }
-
+.movieAdd{
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  background-image: url(https://lumiere-a.akamaihd.net/v1/images/eu_dlp_lg_white_r_2x_926e1a2f.png?region=0,0,1000,320);
+  background-repeat: no-repeat;
+}
+.modal-content {
+  background-color: black !important;
+  color: white;
+}
+.modal-dialog{  
+  margin: 0 5px 0 1040px !important;
+}
 .carousel{
   width: 400px;
   display: flex;
