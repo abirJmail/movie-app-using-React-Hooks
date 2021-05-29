@@ -1,14 +1,10 @@
 import React from 'react';
 import StarRatingComponent from "react-star-rating-component";
-import { useState,useEffect } from "react";
+import { useState} from "react";
 
 
-
-
-const SearchBox = (props) => {
-
-    const [state, setState] = useState({ rating:1,} );
-
+const SearchBox = ({setState,setmyInput}) => {
+    
 	const onStarClick=(nextValue, prevValue, name) =>{
 		setState({rating: nextValue});    }
 		
@@ -17,8 +13,8 @@ const SearchBox = (props) => {
 		<div  className='col col-sm-4'>
 			<input
 				className='form-control'
-				value={props.value}
-				onChange={(event) => props.setSearchValue(event.target.value)}
+				value={setmyInput.value}
+				onChange={(event) => setmyInput(event.target.value)}
 				placeholder='Type to search...'
 			></input>
 

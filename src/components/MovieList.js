@@ -1,15 +1,17 @@
 import React from "react";
 import StarRatingComponent from "react-star-rating-component";
-import MovieAdd from "./MovieAdd";
 import MovieCard from "./MovieCard";
 import "../App.css";
 import Carousel from "react-bootstrap/Carousel";
 
-const MovieList = ({ movies }) => {
+const MovieList = ({ movies,Series }) => {
+
   return (
+    
     <div className="my-main">
+      <h1 style={{color: 'rgb(221, 217, 217)'}}>the Best Disney Movies</h1>
       <Carousel className="carousel">
-        {movies.map((movie) => (
+        {Series.map((movie) => (
           <Carousel.Item>
             <img className="d-block w-100" src={movie.img} alt="First slide" />
             <Carousel.Caption>
@@ -24,10 +26,9 @@ const MovieList = ({ movies }) => {
           </Carousel.Item>
         ))}
       </Carousel>
-
-
-        <MovieCard movies={movies} />
-    
+      <hr />
+      <h1 style={{color: 'rgb(221, 217, 217)'}}>Movies</h1> <hr />
+      <MovieCard movies={movies} /> <hr />
     </div>
   );
 };

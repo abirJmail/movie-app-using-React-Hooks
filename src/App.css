@@ -1,11 +1,13 @@
 .search{
+  background-color: #b38b20;
   width: 100%;
- background-image: url(https://static-mh.content.disney.io/matterhorn/assets/goc/disney_logo_dark@2x-45d70f7dd57b.png);
+background-image: url(https://static-mh.content.disney.io/matterhorn/assets/goc/disney_logo_dark@2x-45d70f7dd57b.png);
 background-repeat: no-repeat;
 display: flex;
 justify-content: space-around;
 align-items: center;
-height: 80px;
+height: 60px;
+background-size: 150px;
 }
 .movieAdd{
   display: flex;
@@ -13,18 +15,25 @@ height: 80px;
   background-color: black;
   background-image: url(https://lumiere-a.akamaihd.net/v1/images/eu_dlp_lg_white_r_2x_926e1a2f.png?region=0,0,1000,320);
   background-repeat: no-repeat;
+  background-size: 250px;
+  padding: 20px;
 }
 .modal-content {
   background-color: black !important;
   color: white;
+  box-shadow: 10px 10px 10px #111 ;
+  transition: background-color .25s linear ;
 }
 .modal-dialog{  
   margin: 0 5px 0 1040px !important;
 }
 .carousel{
-  width: 400px;
+  width: 350px;
+  height: 400px;
   display: flex;
   justify-content: center;
+  box-shadow: 10px 10px 10px #111 ;
+  transition: background-color .25s linear ;
 }
 
 .movies-list{
@@ -33,12 +42,29 @@ height: 80px;
   flex-wrap: wrap;
   justify-content: space-around;
   background-color: black;
-  
+
 }
+
+
 .my-main{
-  display: flex;
+display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   background-color: black;
+}
+.buttonAdd{
+  width: 200px !important;
+  height: 50px !important;
+  border-radius: 5px !important;
+  background-color: #EBBA33 !important;
+  display: flex !important ;
+  justify-content: center !important;
+  align-items: center !important;
+  color: #000 !important;
+  font-family: 'Oswald', sans-serif !important ;
+  font-size: 1.1em ;
+  font-weight: bold !important;
+  cursor: pointer !important;
+  border: #EBBA33 !important;
 }

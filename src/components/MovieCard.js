@@ -1,23 +1,21 @@
-import React from 'react'
-import Card from 'react-bootstrap/Card'
+import React from 'react';
 import StarRatingComponent from 'react-star-rating-component';
-import '../App.css'
+import './MovieCard.css';
 
 const MovieCard = ({movies}) => {
     return (
         <div className="movies-list">
             {movies.map((movie) => ( 
-                        <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={movie.img} />
-                        <Card.Body>
-                        <Card.Title>{movie.title}</Card.Title>
-                        <Card.Text>
-                        {movie.description}
-                        </Card.Text>
-                        <StarRatingComponent name="rate2" editing={false} starCount={5} value={movie.rating}/>
-                        </Card.Body>
-                        </Card>
-                ))}
+                <div className='movie' style={{backgroundImage: `url(${movie.img})`}}>
+                    <div className='movie__cd'>  
+                    <h2 className='movie__title'>{movie.title}</h2>
+                    <span className='movie__description'>{movie.description}</span>
+                    </div>
+                <div className='movie__imdb'>
+                <StarRatingComponent name="rate2" editing={false} starCount={5} value={movie.rating}/>
+                <a href={movie.posterURL} className='movie__imdb-button' target='blank'> IMDb </a>
+        </div>
+    </div>))}
         </div>
     )
 }
