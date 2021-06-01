@@ -35,12 +35,12 @@ const MovieAdd = ({movies,setMovies}) => {
         <div className='movieAdd'>
                 <hr /> <hr /> <hr /><hr />
             <Button variant="primary" className='buttonAdd' onClick={handleShow}>
-            Add Disney Movie
+            Add New Movie
             </Button>
             <hr />
             <Modal show={show} onHide={handleClose}>
             <Modal.Header>
-                <Modal.Title>Add Disney Movie</Modal.Title>
+                <Modal.Title>Add New Movie</Modal.Title>
             </Modal.Header>
             <Modal.Body>
             <div>

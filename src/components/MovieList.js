@@ -9,7 +9,11 @@ const MovieList = ({ movies,Series }) => {
   return (
     
     <div className="my-main">
-      <h1 style={{color: 'rgb(221, 217, 217)'}}>The best Disney Movies</h1>
+            <hr />
+      <h1 style={{color: 'rgb(221, 217, 217)'}}> Popular Disney Movies</h1> <hr />
+      <h2 style={{color: 'rgb(221, 217, 217)'}}>Watch as much as you want, anytime you want...</h2>
+      <MovieCard movies={movies} /> <hr />
+      <h2 style={{color: 'rgb(221, 217, 217)'}}>There’s even more to watch.</h2>
       <Carousel className="carousel" >
         {Series.map((movie) => (
           <Carousel.Item>
@@ -26,9 +30,7 @@ const MovieList = ({ movies,Series }) => {
           </Carousel.Item>
         ))}
       </Carousel>
-      <hr />
-      <h1 style={{color: 'rgb(221, 217, 217)'}}>Movies</h1> <hr />
-      <MovieCard movies={movies} /> <hr />
+
     </div>
   );
 };
