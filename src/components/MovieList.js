@@ -9,12 +9,12 @@ const MovieList = ({ movies,Series }) => {
   return (
     
     <div className="my-main">
-      <h1 style={{color: 'rgb(221, 217, 217)'}}>the Best Disney Movies</h1>
-      <Carousel className="carousel">
+      <h1 style={{color: 'rgb(221, 217, 217)'}}>The best Disney Movies</h1>
+      <Carousel className="carousel" >
         {Series.map((movie) => (
           <Carousel.Item>
-            <img className="d-block w-100" src={movie.img} alt="First slide" />
-            <Carousel.Caption>
+            <img className="d-block w-100" style={{ borderRadius: '15px'}} src={movie.img} alt="First slide" />
+            <Carousel.Caption style={{ color: '#000'}}>
               <h3> {movie.title}</h3>
               <StarRatingComponent
                 name="rate2"

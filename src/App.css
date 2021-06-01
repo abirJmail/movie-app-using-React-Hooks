@@ -12,7 +12,7 @@ background-size: 150px;
 .movieAdd{
   display: flex;
   justify-content: space-between;
-  background-color: black;
+  background-color: rgb(40, 41, 41);
   background-image: url(https://lumiere-a.akamaihd.net/v1/images/eu_dlp_lg_white_r_2x_926e1a2f.png?region=0,0,1000,320);
   background-repeat: no-repeat;
   background-size: 250px;
@@ -29,11 +29,12 @@ background-size: 150px;
 }
 .carousel{
   width: 350px;
-  height: 400px;
+  height: 525px;
   display: flex;
   justify-content: center;
   box-shadow: 10px 10px 10px #111 ;
   transition: background-color .25s linear ;
+  border-radius: 15px;
 }
 
 .movies-list{
@@ -41,8 +42,7 @@ background-size: 150px;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  background-color: black;
-
+  background-color: rgb(40, 41, 41);;
 }
 
 
@@ -51,7 +51,7 @@ display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  background-color: black;
+  background-color: rgb(40, 41, 41);
 }
 .buttonAdd{
   width: 200px !important;

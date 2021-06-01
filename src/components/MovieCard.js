@@ -6,7 +6,7 @@ const MovieCard = ({movies}) => {
     return (
         <div className="movies-list">
             {movies.map((movie) => ( 
-                <div className='movie' style={{backgroundImage: `url(${movie.img})`}}>
+                <div className='movie' style={{backgroundImage: `url(${movie.img})`, borderRadius: '15px'}}>
                     <div className='movie__cd'>  
                     <h2 className='movie__title'>{movie.title}</h2>
                     <span className='movie__description'>{movie.description}</span>
