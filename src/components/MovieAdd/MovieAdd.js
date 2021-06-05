@@ -3,7 +3,7 @@ import { Button } from "react-bootstrap";
 import { v4 as uuidv4 } from "uuid";
 import Modal from 'react-bootstrap/Modal';
 import { useState } from "react";
-import "../App.css";
+import './MovieAdd.css'
 
 const MovieAdd = ({movies,setMovies}) => {
 
@@ -38,7 +38,7 @@ const MovieAdd = ({movies,setMovies}) => {
             Add New Movie
             </Button>
             <hr />
-            <Modal show={show} onHide={handleClose}>
+            <Modal className='Modal' show={show} onHide={handleClose}>
             <Modal.Header>
                 <Modal.Title>Add New Movie</Modal.Title>
             </Modal.Header>

@@ -1,6 +1,7 @@
 import React from 'react';
 import StarRatingComponent from "react-star-rating-component";
 import { useState} from "react";
+import './Search.css'
 
 
 const SearchBox = ({setState,setmyInput}) => {

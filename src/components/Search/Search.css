@@ -1,0 +1,11 @@
+.search{
+    background-color: #b38b20;
+    width: 100%;
+    background-image: url(https://static-mh.content.disney.io/matterhorn/assets/goc/disney_logo_dark@2x-45d70f7dd57b.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-size: 150px;
+}

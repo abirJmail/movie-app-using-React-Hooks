@@ -7,6 +7,9 @@ export const list = [
           description : "Maleficent and her goddaughter Aurora begin to question the complex family ties that bind them as they are pulled in different directions by impending nuptials, unexpected allies and dark new forces at play.",
           posterURL : "https://en.disneyme.com/movies/maleficent-mistress-of-evil",
           rating : 3,
+          text :"1h 59min  October 17, 2019  Adventure, Fantasy, Live Action : Visit the official website for Disney's Maleficent: Mistress of Evil, starring Angelina Jolie and Elle Fanning. Now available on Digital Download.",
+          image :"https://lumiere-a.akamaihd.net/v1/images/pp_maleficentmistressofevil_herobanner_19736_16f82449.jpeg?region=0,0,2048,878&width=1536",
+          direct :"Joachim Rønning"
         },
         {
           id :uuidv4(),
@@ -15,6 +18,9 @@ export const list = [
           description :"Acclaimed filmmaker Niki Caro brings the epic tale of China’s legendary warrior to life in Disney’s MULAN, in which a fearless young woman risks everything out of love for her family and her country to become one of the greatest warriors China has ever known.",
           posterURL : "https://en.disneyme.com/movies/mulan-2020",
           rating : 4,
+          text :"1h 55min  September 4, 2020  Action, Adventure, Drama : Acclaimed filmmaker Niki Caro brings the epic tale of China’s legendary warrior to life in Disney’s MULAN, in which a fearless young woman risks everything out of love for her family and her country to become one of the greatest warriors China has ever known. When the Emperor of China issues a decree that one man per family must serve in the Imperial Army to defend the country from Northern invaders, Hua Mulan, the eldest daughter of an honored warrior, steps in to take the place of her ailing father. Masquerading as a man, Hua Jun, she is tested every step of the way and must harness her inner-strength and embrace her true potential. It is an epic journey that will transform her into an honored warrior and earn her the respect of a grateful nation…and a proud father.",
+          image :"https://lumiere-a.akamaihd.net/v1/images/image_5f862b88.jpeg?region=0,0,2048,878&width=1536",
+          direct :"Niki Caro",
         },
         {
           id :uuidv4(),
@@ -23,6 +29,9 @@ export const list = [
           description:"From Disney comes a thrilling and vibrant live-action adaptation of the animated classic Aladdin, featuring Will Smith as the larger-than-life Genie, with the charming street rat Aladdin and the courageous, self-determined Princess Jasmine!",
           posterURL : "https://en.disneyme.com/movies/aladdin-2019",
           rating : 4,
+          text :"2h 8min  May 23, 2019  Adventure, Family, Fantasy : From Disney comes a thrilling and vibrant live-action adaptation of the animated classic Aladdin, featuring Will Smith as the larger-than-life Genie, with the charming street rat Aladdin and the courageous, self-determined Princess Jasmine!",
+          image :"https://lumiere-a.akamaihd.net/v1/images/pp_aladdin2019_herobanner_19736_df5ad245.jpeg?region=0,0,2048,878&width=1536",
+          direct :"Guy Ritchie",
         },
         {
           id :uuidv4(),
@@ -31,6 +40,9 @@ export const list = [
           description:"Disney’s The Lion King, directed by Jon Favreau, journeys to the African savanna, where a future king is born. Simba idolizes his father, King Mufasa, and takes to heart his own royal destiny. But not everyone in the kingdom celebrates the new cub’s arrival...",
           posterURL : "https://en.disneyme.com/movies/the-lion-king-2019",
           rating : 4,
+          text :"1h 58min  July 18, 2019  Adventure, Drama : Disney’s The Lion King, directed by Jon Favreau, journeys to the African savanna, where a future king is born. Simba idolizes his father, King Mufasa, and takes to heart his own royal destiny. But not everyone in the kingdom celebrates the new cub’s arrival. Scar, Mufasa’s brother—and former heir to the throne—has plans of his own. The battle for Pride Rock is ravaged with betrayal, tragedy and drama, ultimately resulting in Simba’s exile. With help from a curious pair of newfound friends, Simba will have to figure out how to grow up and take back what is rightfully his. The all-star cast includes Donald Glover as Simba, Beyoncé Knowles-Carter as Nala, James Earl Jones as Mufasa, Chiwetel Ejiofor as Scar, Seth Rogen as Pumbaa and Billy Eichner as Timon. Disney’s The Lion King utilizes pioneering filmmaking techniques to bring treasured characters to life in a whole new way.",
+          image :"https://lumiere-a.akamaihd.net/v1/images/image_1302afc6.jpeg?region=0,0,2048,878&width=1536",
+          direct :"Jon Favreau",
         },
         {
           id :uuidv4(),
@@ -39,6 +51,9 @@ export const list = [
           description:"“Cruella,” which is set in 1970s London amidst the punk rock revolution, follows a young grifter named Estella, a clever and creative girl determined to make a name for herself with her designs...",
           posterURL : "https://en.disneyme.com/movies/cruella",
           rating : 5,
+          text :"Comedy, Crime : Emma Stone (LA LA LAND) stars in Disney’s CRUELLA, an all-new live-action feature film about the rebellious early days of one of cinema’s most notorious – and notoriously fashionable – villains, the legendary Cruella de Vil. Set during the 1970s punk rock revolution in London, the story follows a clever and creative young grifter named Estella, who is determined to become a successful designer. After Estella befriends a pair of young thieves who appreciate her appetite for mischief, the three build a life for themselves on the London streets. Before long, Estella’s flair for fashion catches the eye of the Baroness von Hellman, a devastatingly chic and terrifyingly haute fashion legend, played by Emma Thompson (HOWARDS END, SENSE AND SENSIBILITY). But their relationship sets in motion a course of events and revelations that will cause Estella to embrace her wicked side and become the raucous, fashionable and revenge-bent “Cruella.” CRUELLA is directed by Craig Gillespie (I, TONYA) from a screenplay by Dana Fox and Tony McNamara, story by Aline Brosh McKenna and Kelly Marcel & Steve Zissis. It was produced by Andrew Gunn (FREAKY FRIDAY), Marc Platt (MARY POPPINS RETURNS) and Kristin Burr (CHRISTOPHER ROBIN), with Emma Stone, Michelle Wright, Jared LeBoff and Glenn Close serving as executive producers. Spectacular costume designer Jenny Beavan (MAD MAX: FURY ROAD, A ROOM WITH A VIEW) creates the dazzling and imaginative costumes, which take on a life of their own. WARNING: Some flashing lights scenes in this film may affect photosensitive viewers.",
+          image :"https://lumiere-a.akamaihd.net/v1/images/pp_cruella_herobanner_20915_65ae3631.jpeg?region=0,0,2048,878&width=1536",
+          direct :"Craig Gillespie",
         },
         {
           id :uuidv4(),
@@ -47,6 +62,9 @@ export const list = [
           description:"Set in a seaside town on the Italian Riviera, Disney and Pixar’s “Luca” is a coming-of-age story about a young boy experiencing an unforgettable summer...",
           posterURL : "https://en.disneyme.com/movies/luca",
           rating : 2,
+          text :"Set in a seaside town on the Italian Riviera, Disney and Pixar’s “Luca” is a coming-of-age story about a young boy experiencing an unforgettable summer. Luca shares these adventures with his friend, Alberto, but all the fun is threatened by a deeply-held secret: they are sea monsters from another world below the water’s surface. “Luca” is directed by Enrico Casarosa and produced by Andrea Warren.",
+          image :"https://lumiere-a.akamaihd.net/v1/images/image_f3cb90ed.jpeg?region=0,0,2048,878&width=1536",
+          direct :"Enrico Casarosa",
         },
         {
           id :uuidv4(),
@@ -55,6 +73,9 @@ export const list = [
           description:"Lucasfilm and director J.J. Abrams join forces once more to take viewers on an epic journey to a galaxy far..",
           posterURL : "https://en.disneyme.com/movies/star-wars-the-rise-of-skywalker",
           rating : 2,
+          text :"2h 22min  December 19, 2019  Action, Adventure, Science Fiction : Lucasfilm and director J.J. Abrams join forces once more to take viewers on an epic journey to a galaxy far, far away with STAR WARS: THE RISE OF SKYWALKER. Experience the riveting conclusion of the landmark Skywalker saga, in which new legends will be born—and the final battle for freedom is yet to come.",
+          image :"https://lumiere-a.akamaihd.net/v1/images/image_4f4977c7.jpeg?region=0,0,2048,878&width=1536",
+          direct :"J.J. Abrams",
         },
         {
           id :uuidv4(),
@@ -63,6 +84,9 @@ export const list = [
           description:"Action, Adventure, Comedy. There are so many amazing movies to look forward to, and among those is the latest movie Jungle Cruise from Disney.",
           posterURL : "https://en.disneyme.com/movies/jungle-cruise",
           rating : 3,
+          text :"Action, Adventure, Comedy : There are so many amazing movies to look forward to, and among those is the latest movie Jungle Cruise from Disney.",
+          image :"https://lumiere-a.akamaihd.net/v1/images/image_f900fddb.jpeg?region=0,0,2048,878&width=1536",
+          direct :"Jaume Collet-Serra",
         },
         {
           id :uuidv4(),
@@ -71,6 +95,9 @@ export const list = [
           description:"Action, Adventure, Comedy. There are so many amazing movies to look forward to, and among those is the latest movie Jungle Cruise from Disney.",
           posterURL : "https://en.disneyme.com/movies/jungle-cruise",
           rating : 4,
+          text :"Action, Adventure, Science Fiction : In Marvel Studios’ action-packed spy thriller “Black Widow,” Natasha Romanoff aka Black Widow confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises. Pursued by a force that will stop at nothing to bring her down, Natasha must deal with her history as a spy and the broken relationships left in her wake long before she became an Avenger.",
+          image :"https://lumiere-a.akamaihd.net/v1/images/image_41f18950.jpeg?region=0,0,2048,878&width=1536",
+          direct :"Cate Shortland",
         },
         {
           id :uuidv4(),
@@ -79,6 +106,9 @@ export const list = [
           description:"Marvel Studios’ “Eternals” welcomes an exciting new team of Super Heroes to the Marvel Cinematic Universe. The epic story, spanning thousands of years, features a group of immortal heroes forced out of the shadows to reunite against mankind’s oldest enemy, The Deviants...",
           posterURL : "https://en.disneyme.com/movies/eternals",
           rating : 3,
+          text :"Marvel Studios’ “Eternals” welcomes an exciting new team of Super Heroes to the Marvel Cinematic Universe. The epic story, spanning thousands of years, features a group of immortal heroes forced out of the shadows to reunite against mankind’s oldest enemy, The Deviants. The outstanding ensemble cast includes Richard Madden as the all-powerful Ikaris, Gemma Chan as humankind-loving Sersi, Kumail Nanjiani as cosmic-powered Kingo, Lauren Ridloff as the super-fast Makkari, Brian Tyree Henry as the intelligent inventor Phastos, Salma Hayek as the wise and spiritual leader Ajak, Lia McHugh as the eternally young, old-soul Sprite, Don Lee as the powerful Gilgamesh, Barry Keoghan as aloof loner Druig, and Angelina Jolie as the fierce warrior Thena. Kit Harington plays Dane Whitman. Directed by Chloé Zhao.",
+          image :"https://lumiere-a.akamaihd.net/v1/images/image_f9b0fb6d.jpeg?region=0,0,2048,878&width=1536",
+          direct :" Chloé Zhao",
         },
       ]
 
